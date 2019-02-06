@@ -12,7 +12,7 @@ void FCatDogGame::Reset() {
 	constexpr int32 Max_Tries = 8;
 	const FString Hidden_Word = "daniel";
 
-	MyMaxTries = Max_Tries;
+	//MyMaxTries = Max_Tries;
 	MyHiddenWord = Hidden_Word;
 	MyCurrentTry = 1;
 	bGameIsWon = false;
